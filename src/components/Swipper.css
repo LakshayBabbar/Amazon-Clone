@@ -1,0 +1,33 @@
+.mySwiper{
+    position: absolute;
+    top: 10vh;
+}
+.swiper {
+  width: 90vw;
+  height: 60%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media(max-width: 1200px) {
+  .mySwiper{
+    top: 16vh;
+  }
+  .swiper{
+    width: 100%;
+    height: 40vh;
+  }
+}

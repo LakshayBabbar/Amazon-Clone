@@ -1,0 +1,23 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 2rem;
+    z-index: 9;
+    margin-top: 35vh;
+}
+
+@media (max-width: 1200px) {
+    .wrapper{
+        grid-template-columns: repeat(3,auto);
+    }
+}
+@media (max-width: 1030px) {
+    .wrapper{
+        grid-template-columns: repeat(2,auto);
+    }
+}
+@media (max-width: 768px) {
+    .wrapper{
+        grid-template-columns: none;
+    }
+}

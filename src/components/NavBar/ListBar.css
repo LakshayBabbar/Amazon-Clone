@@ -1,0 +1,38 @@
+.listbar-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: #1f2f3e;
+    width: 100vw;
+    height: 4vh;
+    z-index: 100;
+}
+.listbar-wrapper ul{
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+.listbar-wrapper li{
+    list-style: none;
+    margin-right: 1rem;
+}
+.listbar-wrapper ul li{
+    font-size: 1rem;
+    font-weight: 400;
+    color: aliceblue;
+    white-space: nowrap;
+}
+#ico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width: 1200px) {
+    .listbar-wrapper{
+        height: 5vh;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    #ico{
+        display: none;
+    }
+}

@@ -1,0 +1,113 @@
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #101920;
+  height: 6vh;
+  z-index: 100;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+}
+.nav-logo img {
+    width: 6rem;
+    margin-left: 1rem;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-box input {
+    border: none;
+    width: 55vw;
+    height: 2.5rem;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0 1rem;
+    outline: none;
+}
+.search-box input::placeholder{
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.icon-box{
+    border: none;
+    background-color: #ffa755;
+    height: 2.5rem;
+    width: 3rem;
+    border-radius: 0 5px 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-wrapper{
+    display: flex;
+    align-items: center;
+}
+.right-wrapper a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    color: white;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+}
+.cart{
+    margin: 0 2rem;
+}
+
+.top-bar{
+    display: none;
+}
+#menu{
+    display: none;
+}
+
+@media(max-width: 1200px) {
+    .nav-wrapper {
+        flex-direction: column;
+        background-color: #1f2f3e;
+        height: 11vh;
+      }
+      .nav-logo{
+        justify-content: space-between;
+        width: 100vw;
+        padding: 0.5rem 0;
+      }
+      .nav-logo img{
+        width: 5rem;
+        margin-left: 1.5rem;
+      }
+      .top-bar{
+        display: flex;
+        align-items: center;
+        margin-right: 1.5rem;
+      }
+      .top-bar a {
+        color: aliceblue;
+        font-size: 1rem;
+        text-decoration: none;
+        font-weight: 500;
+      }
+      .search-box{
+        width: 100vw;
+        padding: 0;
+        margin: 0 1rem;
+    }
+    .search-box input {
+        width: 80vw;
+    }
+    .right-wrapper{
+        display: none;
+    }
+    #menu{
+        display: block;
+    }
+}

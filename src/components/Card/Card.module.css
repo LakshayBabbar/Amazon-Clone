@@ -1,0 +1,55 @@
+.wrapper {
+  background-color: #fff;
+  height: 40vh;
+  width: 18vw;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.wrapper h3 {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+}
+.wrapper img {
+  width: 100%;
+  height: 100%;
+}
+.wrapper a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 1rem 0;
+  color: teal;
+}
+.wrapper a:hover {
+  color: red;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    height: 42vh;
+    width: 27vw;
+  }
+}
+@media (max-width: 1030px) {
+  .wrapper {
+    width: 40vw;
+    height: 50vh;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90vw;
+    height: 50vh;
+  }
+  .img{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper .img img{
+    width: 80%;
+    height: 100%;
+  }
+}
