@@ -1,12 +1,18 @@
-import "./App.css";
+import classes from "./App.module.css";
 import Navbar from "./components/NavBar/Navbar";
-import Body from "./components/Body";
+import Cards from "./components/Card/Cards";
+import Swipper from "./components/Swipper/Swipper";
+import SignInBar from "./components/SignIn/SignInBar";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Body/>
+      <div className={classes.wrapper}>
+        <Swipper />
+        <Cards />
+        <SignInBar />
+      </div>
     </>
   );
 }

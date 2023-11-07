@@ -27,14 +27,13 @@
 
 @media (max-width: 1200px) {
   .wrapper {
-    height: 42vh;
-    width: 27vw;
+    height: 25rem;
+    width: 20rem;
   }
 }
 @media (max-width: 1030px) {
   .wrapper {
-    width: 40vw;
-    height: 50vh;
+    width: 22rem;
   }
 }
 @media (max-width: 768px) {

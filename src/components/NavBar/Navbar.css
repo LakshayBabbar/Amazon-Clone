@@ -74,7 +74,7 @@
     .nav-wrapper {
         flex-direction: column;
         background-color: #1f2f3e;
-        height: 11vh;
+        height: 6rem;
       }
       .nav-logo{
         justify-content: space-between;

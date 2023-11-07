@@ -24,7 +24,7 @@
 
 @media(max-width: 1200px) {
   .mySwiper{
-    top: 16vh;
+    top: 9rem;
   }
   .swiper{
     width: 100%;

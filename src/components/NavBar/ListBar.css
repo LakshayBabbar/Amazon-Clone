@@ -28,11 +28,8 @@
 }
 @media (max-width: 1200px) {
     .listbar-wrapper{
-        height: 5vh;
+        height: 3rem;
         overflow-x: scroll;
         overflow-y: hidden;
-    }
-    #ico{
-        display: none;
     }
 }
